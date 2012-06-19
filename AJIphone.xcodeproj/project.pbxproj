@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76A815D315906D3A004858E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A815D215906D3A004858E1 /* UIKit.framework */; };
+		76A815D515906D3A004858E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A815D415906D3A004858E1 /* Foundation.framework */; };
+		76A815D715906D3A004858E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A815D615906D3A004858E1 /* CoreGraphics.framework */; };
+		76A815DD15906D3A004858E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76A815DB15906D3A004858E1 /* InfoPlist.strings */; };
+		76A815DF15906D3A004858E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A815DE15906D3A004858E1 /* main.m */; };
+		76A815E315906D3A004858E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A815E215906D3A004858E1 /* AppDelegate.m */; };
+		76A815E615906D3A004858E1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A815E415906D3A004858E1 /* MainStoryboard.storyboard */; };
+		76A815E915906D3A004858E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A815E815906D3A004858E1 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76A815CE15906D3A004858E1 /* AJIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A815D215906D3A004858E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		76A815D415906D3A004858E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		76A815D615906D3A004858E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		76A815DA15906D3A004858E1 /* AJIphone-Info.plist */ = {isa = PBXFileReference; path = "AJIphone-Info.plist"; sourceTree = "<group>"; };
+		76A815DC15906D3A004858E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		76A815DE15906D3A004858E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A815E015906D3A004858E1 /* AJIphone-Prefix.pch */ = {isa = PBXFileReference; path = "AJIphone-Prefix.pch"; sourceTree = "<group>"; };
+		76A815E115906D3A004858E1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		76A815E215906D3A004858E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76A815E515906D3A004858E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		76A815E715906D3A004858E1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		76A815E815906D3A004858E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A815CB15906D3A004858E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A815D315906D3A004858E1 /* UIKit.framework in Frameworks */,
+				76A815D515906D3A004858E1 /* Foundation.framework in Frameworks */,
+				76A815D715906D3A004858E1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A815C315906D3A004858E1 = {
+			isa = PBXGroup;
+			children = (
+				76A815D815906D3A004858E1 /* AJIphone */,
+				76A815D115906D3A004858E1 /* Frameworks */,
+				76A815CF15906D3A004858E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A815CF15906D3A004858E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A815CE15906D3A004858E1 /* AJIphone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A815D115906D3A004858E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76A815D215906D3A004858E1 /* UIKit.framework */,
+				76A815D415906D3A004858E1 /* Foundation.framework */,
+				76A815D615906D3A004858E1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76A815D815906D3A004858E1 /* AJIphone */ = {
+			isa = PBXGroup;
+			children = (
+				76A815E115906D3A004858E1 /* AppDelegate.h */,
+				76A815E215906D3A004858E1 /* AppDelegate.m */,
+				76A815E415906D3A004858E1 /* MainStoryboard.storyboard */,
+				76A815E715906D3A004858E1 /* ViewController.h */,
+				76A815E815906D3A004858E1 /* ViewController.m */,
+				76A815D915906D3A004858E1 /* Supporting Files */,
+			);
+			path = AJIphone;
+			sourceTree = "<group>";
+		};
+		76A815D915906D3A004858E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76A815DA15906D3A004858E1 /* AJIphone-Info.plist */,
+				76A815DB15906D3A004858E1 /* InfoPlist.strings */,
+				76A815DE15906D3A004858E1 /* main.m */,
+				76A815E015906D3A004858E1 /* AJIphone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A815CD15906D3A004858E1 /* AJIphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A815EC15906D3A004858E1 /* Build configuration list for PBXNativeTarget "AJIphone" */;
+			buildPhases = (
+				76A815CA15906D3A004858E1 /* Sources */,
+				76A815CB15906D3A004858E1 /* Frameworks */,
+				76A815CC15906D3A004858E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJIphone;
+			productName = AJIphone;
+			productReference = 76A815CE15906D3A004858E1 /* AJIphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A815C515906D3A004858E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 76A815C815906D3A004858E1 /* Build configuration list for PBXProject "AJIphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 76A815C315906D3A004858E1;
+			productRefGroup = 76A815CF15906D3A004858E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A815CD15906D3A004858E1 /* AJIphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A815CC15906D3A004858E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A815DD15906D3A004858E1 /* InfoPlist.strings in Resources */,
+				76A815E615906D3A004858E1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A815CA15906D3A004858E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A815DF15906D3A004858E1 /* main.m in Sources */,
+				76A815E315906D3A004858E1 /* AppDelegate.m in Sources */,
+				76A815E915906D3A004858E1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76A815DB15906D3A004858E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A815DC15906D3A004858E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		76A815E415906D3A004858E1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A815E515906D3A004858E1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A815EA15906D3A004858E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76A815EB15906D3A004858E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A815ED15906D3A004858E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AJIphone/AJIphone-Prefix.pch";
+				INFOPLIST_FILE = "AJIphone/AJIphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		76A815EE15906D3A004858E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AJIphone/AJIphone-Prefix.pch";
+				INFOPLIST_FILE = "AJIphone/AJIphone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A815C815906D3A004858E1 /* Build configuration list for PBXProject "AJIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A815EA15906D3A004858E1 /* Debug */,
+				76A815EB15906D3A004858E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A815EC15906D3A004858E1 /* Build configuration list for PBXNativeTarget "AJIphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A815ED15906D3A004858E1 /* Debug */,
+				76A815EE15906D3A004858E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A815C515906D3A004858E1 /* Project object */;
+}

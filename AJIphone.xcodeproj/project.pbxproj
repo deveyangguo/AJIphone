@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76470F9415B404340074558C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 76470F9315B404340074558C /* icon.png */; };
+		76470F9615B4043B0074558C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 76470F9515B4043B0074558C /* Default.png */; };
+		769A79A015AABB4D00883D81 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 769A799C15AABB4C00883D81 /* 1.png */; };
+		769A79A115AABB4D00883D81 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 769A799D15AABB4C00883D81 /* 2.png */; };
+		769A79A215AABB4D00883D81 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 769A799E15AABB4C00883D81 /* 3.png */; };
+		769A79A315AABB4D00883D81 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 769A799F15AABB4C00883D81 /* 4.png */; };
+		769B9029159D730F004BD7CF /* CompanyAlarmInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 769B9026159D730F004BD7CF /* CompanyAlarmInfo.m */; };
+		769B902A159D730F004BD7CF /* SenTypeAlarmInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 769B9028159D730F004BD7CF /* SenTypeAlarmInfo.m */; };
+		76A2371415A6CCAC000876CE /* RTADataGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2371315A6CCAB000876CE /* RTADataGroupDetailViewController.m */; };
+		76A2371715A6CE1D000876CE /* RTADataCompanyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2371615A6CE1D000876CE /* RTADataCompanyDetailViewController.m */; };
+		76A2371A15A6D5E7000876CE /* SoapNSXMLParserGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2371915A6D5E7000876CE /* SoapNSXMLParserGroup.m */; };
+		76A2372915A6F462000876CE /* RealTimeAlarmInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2372815A6F462000876CE /* RealTimeAlarmInfo.m */; };
+		76A2372C15A6FA8F000876CE /* SoapNSXMLParserGroupDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2372B15A6FA8F000876CE /* SoapNSXMLParserGroupDetail.m */; };
+		76A2372F15A6FAB9000876CE /* SoapNSXMLParserCompanyDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A2372E15A6FAB9000876CE /* SoapNSXMLParserCompanyDetail.m */; };
+		76A36CD115AEBBC0001E1DCD /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A36CD015AEBBC0001E1DCD /* 0.png */; };
+		76A36CD915AEC64B001E1DCD /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A36CD815AEC64B001E1DCD /* 5.png */; };
+		76A36CEB15AED389001E1DCD /* HistoryMore.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A36CEA15AED389001E1DCD /* HistoryMore.png */; };
+		76A36CF115AED6E0001E1DCD /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 76A36CF015AED6E0001E1DCD /* 11.png */; };
+		76A3BAF715A8622C00854D00 /* RTARecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A3BAF615A8622C00854D00 /* RTARecordViewController.m */; };
+		76A3BAFA15A8642E00854D00 /* SoapNSXMLParserRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A3BAF915A8642E00854D00 /* SoapNSXMLParserRecord.m */; };
+		76A3BAFD15A8651000854D00 /* RealTimeAlarmRecordInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A3BAFC15A8651000854D00 /* RealTimeAlarmRecordInfo.m */; };
 		76A815D315906D3A004858E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A815D215906D3A004858E1 /* UIKit.framework */; };
 		76A815D515906D3A004858E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A815D415906D3A004858E1 /* Foundation.framework */; };
 		76A815D715906D3A004858E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A815D615906D3A004858E1 /* CoreGraphics.framework */; };
@@ -15,22 +36,63 @@
 		76A815E315906D3A004858E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A815E215906D3A004858E1 /* AppDelegate.m */; };
 		76A815E615906D3A004858E1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A815E415906D3A004858E1 /* MainStoryboard.storyboard */; };
 		76A815E915906D3A004858E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A815E815906D3A004858E1 /* ViewController.m */; };
+		76A815F115907451004858E1 /* RTADataGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A815F015907451004858E1 /* RTADataGroupViewController.m */; };
+		76AE151615A5AADA0035F55B /* RTADataCompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AE151515A5AADA0035F55B /* RTADataCompanyViewController.m */; };
+		76C003BF15A3F24300EE25E6 /* SoapNSXMLParserCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C003BE15A3F24300EE25E6 /* SoapNSXMLParserCompany.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		76A815CE15906D3A004858E1 /* AJIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76470F9315B404340074558C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		76470F9515B4043B0074558C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		769A799C15AABB4C00883D81 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		769A799D15AABB4C00883D81 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		769A799E15AABB4C00883D81 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		769A799F15AABB4C00883D81 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		769B9025159D730F004BD7CF /* CompanyAlarmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyAlarmInfo.h; sourceTree = "<group>"; };
+		769B9026159D730F004BD7CF /* CompanyAlarmInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyAlarmInfo.m; sourceTree = "<group>"; };
+		769B9027159D730F004BD7CF /* SenTypeAlarmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenTypeAlarmInfo.h; sourceTree = "<group>"; };
+		769B9028159D730F004BD7CF /* SenTypeAlarmInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTypeAlarmInfo.m; sourceTree = "<group>"; };
+		76A2371215A6CCAB000876CE /* RTADataGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTADataGroupDetailViewController.h; sourceTree = "<group>"; };
+		76A2371315A6CCAB000876CE /* RTADataGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTADataGroupDetailViewController.m; sourceTree = "<group>"; };
+		76A2371515A6CE1D000876CE /* RTADataCompanyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTADataCompanyDetailViewController.h; sourceTree = "<group>"; };
+		76A2371615A6CE1D000876CE /* RTADataCompanyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTADataCompanyDetailViewController.m; sourceTree = "<group>"; };
+		76A2371815A6D5E7000876CE /* SoapNSXMLParserGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNSXMLParserGroup.h; sourceTree = "<group>"; };
+		76A2371915A6D5E7000876CE /* SoapNSXMLParserGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNSXMLParserGroup.m; sourceTree = "<group>"; };
+		76A2372715A6F462000876CE /* RealTimeAlarmInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeAlarmInfo.h; sourceTree = "<group>"; };
+		76A2372815A6F462000876CE /* RealTimeAlarmInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeAlarmInfo.m; sourceTree = "<group>"; };
+		76A2372A15A6FA8F000876CE /* SoapNSXMLParserGroupDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNSXMLParserGroupDetail.h; sourceTree = "<group>"; };
+		76A2372B15A6FA8F000876CE /* SoapNSXMLParserGroupDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNSXMLParserGroupDetail.m; sourceTree = "<group>"; };
+		76A2372D15A6FAB8000876CE /* SoapNSXMLParserCompanyDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNSXMLParserCompanyDetail.h; sourceTree = "<group>"; };
+		76A2372E15A6FAB9000876CE /* SoapNSXMLParserCompanyDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNSXMLParserCompanyDetail.m; sourceTree = "<group>"; };
+		76A36CD015AEBBC0001E1DCD /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		76A36CD815AEC64B001E1DCD /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		76A36CEA15AED389001E1DCD /* HistoryMore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HistoryMore.png; sourceTree = "<group>"; };
+		76A36CF015AED6E0001E1DCD /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		76A3BAF515A8622B00854D00 /* RTARecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTARecordViewController.h; sourceTree = "<group>"; };
+		76A3BAF615A8622C00854D00 /* RTARecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTARecordViewController.m; sourceTree = "<group>"; };
+		76A3BAF815A8642E00854D00 /* SoapNSXMLParserRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNSXMLParserRecord.h; sourceTree = "<group>"; };
+		76A3BAF915A8642E00854D00 /* SoapNSXMLParserRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNSXMLParserRecord.m; sourceTree = "<group>"; };
+		76A3BAFB15A8650F00854D00 /* RealTimeAlarmRecordInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealTimeAlarmRecordInfo.h; sourceTree = "<group>"; };
+		76A3BAFC15A8651000854D00 /* RealTimeAlarmRecordInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealTimeAlarmRecordInfo.m; sourceTree = "<group>"; };
+		76A815CE15906D3A004858E1 /* 神华安监.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "神华安监.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A815D215906D3A004858E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76A815D415906D3A004858E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		76A815D615906D3A004858E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		76A815DA15906D3A004858E1 /* AJIphone-Info.plist */ = {isa = PBXFileReference; path = "AJIphone-Info.plist"; sourceTree = "<group>"; };
+		76A815DA15906D3A004858E1 /* AJIphone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AJIphone-Info.plist"; sourceTree = "<group>"; };
 		76A815DC15906D3A004858E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76A815DE15906D3A004858E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		76A815E015906D3A004858E1 /* AJIphone-Prefix.pch */ = {isa = PBXFileReference; path = "AJIphone-Prefix.pch"; sourceTree = "<group>"; };
-		76A815E115906D3A004858E1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		76A815E015906D3A004858E1 /* AJIphone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AJIphone-Prefix.pch"; sourceTree = "<group>"; };
+		76A815E115906D3A004858E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		76A815E215906D3A004858E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		76A815E515906D3A004858E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		76A815E715906D3A004858E1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		76A815E715906D3A004858E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		76A815E815906D3A004858E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76A815EF15907451004858E1 /* RTADataGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTADataGroupViewController.h; sourceTree = "<group>"; };
+		76A815F015907451004858E1 /* RTADataGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTADataGroupViewController.m; sourceTree = "<group>"; };
+		76AE151415A5AADA0035F55B /* RTADataCompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTADataCompanyViewController.h; sourceTree = "<group>"; };
+		76AE151515A5AADA0035F55B /* RTADataCompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTADataCompanyViewController.m; sourceTree = "<group>"; };
+		76C003BD15A3F24300EE25E6 /* SoapNSXMLParserCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapNSXMLParserCompany.h; sourceTree = "<group>"; };
+		76C003BE15A3F24300EE25E6 /* SoapNSXMLParserCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapNSXMLParserCompany.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +112,7 @@
 		76A815C315906D3A004858E1 = {
 			isa = PBXGroup;
 			children = (
+				76A815F6159077BC004858E1 /* Images */,
 				76A815D815906D3A004858E1 /* AJIphone */,
 				76A815D115906D3A004858E1 /* Frameworks */,
 				76A815CF15906D3A004858E1 /* Products */,
@@ -59,7 +122,7 @@
 		76A815CF15906D3A004858E1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76A815CE15906D3A004858E1 /* AJIphone.app */,
+				76A815CE15906D3A004858E1 /* 神华安监.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,12 +140,40 @@
 		76A815D815906D3A004858E1 /* AJIphone */ = {
 			isa = PBXGroup;
 			children = (
+				76A3BAFB15A8650F00854D00 /* RealTimeAlarmRecordInfo.h */,
+				76A3BAFC15A8651000854D00 /* RealTimeAlarmRecordInfo.m */,
+				76A2372715A6F462000876CE /* RealTimeAlarmInfo.h */,
+				76A2372815A6F462000876CE /* RealTimeAlarmInfo.m */,
+				769B9025159D730F004BD7CF /* CompanyAlarmInfo.h */,
+				769B9026159D730F004BD7CF /* CompanyAlarmInfo.m */,
+				769B9027159D730F004BD7CF /* SenTypeAlarmInfo.h */,
+				769B9028159D730F004BD7CF /* SenTypeAlarmInfo.m */,
+				76A3BAF515A8622B00854D00 /* RTARecordViewController.h */,
+				76A3BAF615A8622C00854D00 /* RTARecordViewController.m */,
+				76AE151415A5AADA0035F55B /* RTADataCompanyViewController.h */,
+				76AE151515A5AADA0035F55B /* RTADataCompanyViewController.m */,
+				76A2371515A6CE1D000876CE /* RTADataCompanyDetailViewController.h */,
+				76A2371615A6CE1D000876CE /* RTADataCompanyDetailViewController.m */,
+				76A815EF15907451004858E1 /* RTADataGroupViewController.h */,
+				76A815F015907451004858E1 /* RTADataGroupViewController.m */,
+				76A2371215A6CCAB000876CE /* RTADataGroupDetailViewController.h */,
+				76A2371315A6CCAB000876CE /* RTADataGroupDetailViewController.m */,
 				76A815E115906D3A004858E1 /* AppDelegate.h */,
 				76A815E215906D3A004858E1 /* AppDelegate.m */,
 				76A815E415906D3A004858E1 /* MainStoryboard.storyboard */,
 				76A815E715906D3A004858E1 /* ViewController.h */,
 				76A815E815906D3A004858E1 /* ViewController.m */,
 				76A815D915906D3A004858E1 /* Supporting Files */,
+				76C003BD15A3F24300EE25E6 /* SoapNSXMLParserCompany.h */,
+				76C003BE15A3F24300EE25E6 /* SoapNSXMLParserCompany.m */,
+				76A2371815A6D5E7000876CE /* SoapNSXMLParserGroup.h */,
+				76A2371915A6D5E7000876CE /* SoapNSXMLParserGroup.m */,
+				76A2372A15A6FA8F000876CE /* SoapNSXMLParserGroupDetail.h */,
+				76A2372B15A6FA8F000876CE /* SoapNSXMLParserGroupDetail.m */,
+				76A2372D15A6FAB8000876CE /* SoapNSXMLParserCompanyDetail.h */,
+				76A2372E15A6FAB9000876CE /* SoapNSXMLParserCompanyDetail.m */,
+				76A3BAF815A8642E00854D00 /* SoapNSXMLParserRecord.h */,
+				76A3BAF915A8642E00854D00 /* SoapNSXMLParserRecord.m */,
 			);
 			path = AJIphone;
 			sourceTree = "<group>";
@@ -96,6 +187,23 @@
 				76A815E015906D3A004858E1 /* AJIphone-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76A815F6159077BC004858E1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				76470F9515B4043B0074558C /* Default.png */,
+				76470F9315B404340074558C /* icon.png */,
+				76A36CF015AED6E0001E1DCD /* 11.png */,
+				76A36CEA15AED389001E1DCD /* HistoryMore.png */,
+				76A36CD815AEC64B001E1DCD /* 5.png */,
+				76A36CD015AEBBC0001E1DCD /* 0.png */,
+				769A799C15AABB4C00883D81 /* 1.png */,
+				769A799D15AABB4C00883D81 /* 2.png */,
+				769A799E15AABB4C00883D81 /* 3.png */,
+				769A799F15AABB4C00883D81 /* 4.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,7 +223,7 @@
 			);
 			name = AJIphone;
 			productName = AJIphone;
-			productReference = 76A815CE15906D3A004858E1 /* AJIphone.app */;
+			productReference = 76A815CE15906D3A004858E1 /* 神华安监.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -150,6 +258,16 @@
 			files = (
 				76A815DD15906D3A004858E1 /* InfoPlist.strings in Resources */,
 				76A815E615906D3A004858E1 /* MainStoryboard.storyboard in Resources */,
+				769A79A015AABB4D00883D81 /* 1.png in Resources */,
+				769A79A115AABB4D00883D81 /* 2.png in Resources */,
+				769A79A215AABB4D00883D81 /* 3.png in Resources */,
+				769A79A315AABB4D00883D81 /* 4.png in Resources */,
+				76A36CD115AEBBC0001E1DCD /* 0.png in Resources */,
+				76A36CD915AEC64B001E1DCD /* 5.png in Resources */,
+				76A36CEB15AED389001E1DCD /* HistoryMore.png in Resources */,
+				76A36CF115AED6E0001E1DCD /* 11.png in Resources */,
+				76470F9415B404340074558C /* icon.png in Resources */,
+				76470F9615B4043B0074558C /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +281,20 @@
 				76A815DF15906D3A004858E1 /* main.m in Sources */,
 				76A815E315906D3A004858E1 /* AppDelegate.m in Sources */,
 				76A815E915906D3A004858E1 /* ViewController.m in Sources */,
+				76A815F115907451004858E1 /* RTADataGroupViewController.m in Sources */,
+				769B9029159D730F004BD7CF /* CompanyAlarmInfo.m in Sources */,
+				769B902A159D730F004BD7CF /* SenTypeAlarmInfo.m in Sources */,
+				76C003BF15A3F24300EE25E6 /* SoapNSXMLParserCompany.m in Sources */,
+				76AE151615A5AADA0035F55B /* RTADataCompanyViewController.m in Sources */,
+				76A2371415A6CCAC000876CE /* RTADataGroupDetailViewController.m in Sources */,
+				76A2371715A6CE1D000876CE /* RTADataCompanyDetailViewController.m in Sources */,
+				76A2371A15A6D5E7000876CE /* SoapNSXMLParserGroup.m in Sources */,
+				76A2372915A6F462000876CE /* RealTimeAlarmInfo.m in Sources */,
+				76A2372C15A6FA8F000876CE /* SoapNSXMLParserGroupDetail.m in Sources */,
+				76A2372F15A6FAB9000876CE /* SoapNSXMLParserCompanyDetail.m in Sources */,
+				76A3BAF715A8622C00854D00 /* RTARecordViewController.m in Sources */,
+				76A3BAFA15A8642E00854D00 /* SoapNSXMLParserRecord.m in Sources */,
+				76A3BAFD15A8651000854D00 /* RealTimeAlarmRecordInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,10 +366,12 @@
 		76A815ED15906D3A004858E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AJIphone/AJIphone-Prefix.pch";
 				INFOPLIST_FILE = "AJIphone/AJIphone-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "神华安监";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -245,10 +379,12 @@
 		76A815EE15906D3A004858E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AJIphone/AJIphone-Prefix.pch";
 				INFOPLIST_FILE = "AJIphone/AJIphone-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "神华安监";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -272,6 +408,7 @@
 				76A815EE15906D3A004858E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

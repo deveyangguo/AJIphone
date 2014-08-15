@@ -7,21 +7,59 @@
 //
 
 #import "AppDelegate.h"
+#import "SoapNSXMLParserGroup.h"
+#import "RTADataGroupViewController.h"
+#import "RTARecordViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 
-- (void)dealloc
-{
-    [_window release];
-    [super dealloc];
-}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    //第一个Tab bar
+    UINavigationController *navigationControllerTemp1 = [[tabBarController viewControllers] objectAtIndex:0];
+    RTADataGroupViewController *groupViewControllerTemp = [[navigationControllerTemp1 viewControllers] objectAtIndex:0]; 
+    //首页集团
+    SoapNSXMLParserGroup *xmlPar = [[SoapNSXMLParserGroup alloc]init];
+    xmlPar.delegate = groupViewControllerTemp;
+    
+    //第二个Tab bar
+    UINavigationController *navigationControllerTemp2 = [[tabBarController viewControllers] objectAtIndex:1];
+    navigationController = navigationControllerTemp2;
+    
+    //报警记录badge
+    SoapNSXMLParserRecord *soap = [[SoapNSXMLParserRecord alloc]init];
+    soap.delegate = self;
+    //报警记录badge定时器
+    myTimer = [NSTimer scheduledTimerWithTimeInterval:10.0 target:self selector:@selector(myTaskMethodRecord) userInfo:nil repeats:YES];
+    
+    
     return YES;
+}
+
+-(void)myTaskMethodRecord
+{ 
+    @autoreleasepool {
+        SoapNSXMLParserRecord *soap = [[SoapNSXMLParserRecord alloc]init];
+        soap.delegate = self;
+        soap = nil;
+    }
+}
+
+-(void)GetData:(NSMutableArray *)recordArray
+{
+    myGlobeArray = recordArray;
+    int count = [recordArray count];
+    if (count > 0) {
+        navigationController.tabBarItem.badgeValue = [NSString stringWithFormat:@"%d",[recordArray count]];
+    }else {
+        navigationController.tabBarItem.badgeValue = nil;
+    }
+    recordArray = nil;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -48,7 +86,8 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [myTimer invalidate];
+    myTimer = nil;
 }
 
 @end

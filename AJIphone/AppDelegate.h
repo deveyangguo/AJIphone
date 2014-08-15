@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SoapNSXMLParserRecord.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NSArray *myGlobeArray;
 
-@property (strong, nonatomic) UIWindow *window;
+@interface AppDelegate : UIResponder <UIApplicationDelegate,GetDataRecordDelegate>
+{
+    UINavigationController *navigationController;
+    NSTimer *myTimer;
+}
+
+@property (nonatomic,strong) UIWindow *window;
 
 @end

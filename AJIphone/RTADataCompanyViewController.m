@@ -28,6 +28,7 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization
+        //Test4
     }
     return self;
 }

@@ -23,6 +23,7 @@
     if (self) {
         // Custom initialization
         //这是在测试
+        //这是测试2
     }
     return self;
 }
